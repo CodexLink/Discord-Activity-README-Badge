@@ -19,4 +19,4 @@ class MyClient(discord.Client):
     #    await message.channel.send(fmt.format(message))
 
 client = MyClient()
-client.run('NzY3NjAyMzAyMTIyMTk2OTky.X40TWg.MfsCEjMzaeYO7etqaqXlZ2YkqQI')
+client.run('<TOKEN IS REQUIRED HERE.>)
