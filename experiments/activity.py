@@ -1,4 +1,6 @@
 import discord
+from private import DISCORD_CRENDENTIALS
+
 README_LOCATION = "README.md"
 
 EXIT_FAILURE = 1
@@ -18,4 +20,4 @@ class MyClient(discord.Client):
         print('Message from {0.author}: {0.content}'.format(message))
 
 client = MyClient()
-client.run('.X40TWg.MfsCEjMzaeYO7etqaqXlZ2YkqQI')
+client.run(DISCORD_CRENDENTIALS)

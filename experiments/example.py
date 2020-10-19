@@ -1,5 +1,6 @@
 
 import discord
+from private import DISCORD_CRENDENTIALS
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -19,4 +20,4 @@ class MyClient(discord.Client):
     #    await message.channel.send(fmt.format(message))
 
 client = MyClient()
-client.run('<TOKEN IS REQUIRED HERE.>)
+client.run(DISCORD_CRENDENTIALS)
