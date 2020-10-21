@@ -9,11 +9,49 @@ A Discord-Based Activity Identifier by a Bot for your Activity Presence Badge on
 
 Coming Soon.
 
-## Procedures
+## Quick Setup
 
 Coming Soon.
 
-## Supporting Workflows
+## Technical Procedures
+
+There are two solutions to achieve this badge automation.
+
+### First Method: Non-Hosting Solution, Relying on a Containerized Activity Watcher Bot
+
+#### For Adding Support To Repository
+
+Instructions:
+
+1. !implement <user_profile_github_url, https://github.com/CodexLink> (Mentioning repository is not needed)
+
+2. Requests Changes and Accept PR on a Repository (with Inputs or Agreements for Sure w.Infos, Reaction Required)
+The PR contains Workflow and Database Schema that was built from the Footprint.
+
+3. Ask for Configurations. (Like Force Offline And Show Info only for Online and Hours Ago.)
+
+Once done, we request for PR again with changes along with README Changes.
+
+The changes also triggers an event that makes it able to do changes to README. Add --IGNORE to cancel changes.
+README Header will also be added on the top of the header or the end of the file. This is up for the user to customized it.
+
+4. Styles and Configurations Menu, All Of These Will Be Squash Commit.
+5. Done. Ask the user for workflow_dispatch.
+
+#### For Updates, do !(re-implement|re-config) @me
+
+1. Checks for any Configurations that has the same filename. (Cannot Be Changed)
+2. Do the same for Implement in Step 4. But workflow_dispatch action is user-dependent.
+
+#### For Removal, do !un-implement (--soft|--complete)
+
+All changes has to be accepted via PR.
+
+### Second Method: Own-Hosted Solution, Forking / Cloning the Repo
+
+Coming Soon.
+
+## Supporting Workflows / Proof of System Design
 
 As of now, planning before coding is something that I have to normalize. Straight-up coding is not working for me anymore. Do you want to see how this program flows through? Both in the perspective of Bot and a Client? Then check this [drawio file.](https://drive.google.com/file/d/1ll6P6rstc5iTfRrKagBThs9yJgqGc9Wa/view?usp=sharing)
 
