@@ -131,3 +131,4 @@ dmypy.json
 # Other Things To Ignore
 **/private.py
 .vscode/
+experiments/

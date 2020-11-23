@@ -83,6 +83,7 @@ A4. As of now, it's not possible but it's technically possible. As of October 21
 
 This repository were not possible without the following guides, articles, documentations, tutorials, and whatever you call it.
 
+* [Base PEP 3107 Example](https://github.com/ActivityWatch/aw-core/blob/master/aw_core/models.py) — ???
 * [Discord.py](https://github.com/athul/waka-readme) — Wakatime Weekly Metrics on your Profile Readme.
 * [Discord Bot Examples](https://github.com/GreatTaku/Discord-Bot-Examples) — For Detailed Explanation of Particular Async Functions for handling events and response.
 * [Simple Icons](https://simpleicons.org/) — SVG icons for popular brands.
@@ -90,3 +91,4 @@ This repository were not possible without the following guides, articles, docume
 * [Shields.io](https://shields.io/) — Concise, consistent, and legible badges in SVG and raster format.
 * [StackOverflow Question: Discord bot that commits to github](https://stackoverflow.com/questions/61025429/discord-bot-that-commits-to-github) — Thanking the Answer OP for Concepts that I never thought, possible.
 * [StackOverflow Question: Is OOP possible using discord.py without cogs?](https://stackoverflow.com/questions/63403758/is-oop-possible-using-discord-py-without-cogs) — Thanking the Question OP for such question that I never thought will cross in my thoughts.
+* [StackOverflow Question:](https://stackoverflow.com/questions/50981060/i-cant-add-commands-to-my-discord-bot-with-discord-py) — ???
