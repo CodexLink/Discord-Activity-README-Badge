@@ -1,55 +1,10 @@
-# Discord-Based Activity README Badge
+# A Discontinued Discord Bot to Incomplete Discord Bot Boilerplate
 
 ![Codacy Grade](https://img.shields.io/codacy/grade/d2da8866a48145be8c330a9056b35743?label=Codacy%20Code%20Quality&logo=codacy)
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/CodexLink/discord-activity-readme-badge?label=CodeFactor%20Code%20Quality&logo=codefactor)](https://www.codefactor.io/repository/github/codexlink/discord-activity-readme-badge)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/CodexLink/dquerybotboilerplate?label=CodeFactor%20Code%20Quality&logo=codefactor)](https://www.codefactor.io/repository/github/codexlink/dquerybotboilerplate)
 
-A Discord-Based Activity Identifier by a Bot for your Activity Presence Badge on your README. Made on Python.
+A boilerplate or template that utilizes Cogs in discord.py, along with OOP design patterns (just like in entrypoint file, trust me it works).
 
-## The Story
-
-Coming Soon.
-
-## Quick Setup
-
-Coming Soon.
-
-## Technical Procedures
-
-There are two solutions to achieve this badge automation.
-
-### First Method: Non-Hosting Solution, Relying on a Containerized Activity Watcher Bot
-
-#### For Adding Support To Repository
-
-Instructions:
-
-1. !implement <user_profile_github_url, https://github.com/CodexLink> (Mentioning repository is not needed)
-
-2. Requests Changes and Accept PR on a Repository (with Inputs or Agreements for Sure w.Infos, Reaction Required)
-The PR contains Workflow and Database Schema that was built from the Footprint.
-
-3. Ask for Configurations. (Like Force Offline And Show Info only for Online and Hours Ago.)
-
-Once done, we request for PR again with changes along with README Changes.
-
-The changes also triggers an event that makes it able to do changes to README. Add --IGNORE to cancel changes.
-README Header will also be added on the top of the header or the end of the file. This is up for the user to customized it.
-
-4. Styles and Configurations Menu, All Of These Will Be Squash Commit.
-5. Done. Ask the user for workflow_dispatch.
-
-#### For Updates, do !(re-implement|re-config) @me
-
-1. Checks for any Configurations that has the same filename. (Cannot Be Changed)
-2. Do the same for Implement in Step 4. But workflow_dispatch action is user-dependent.
-
-#### For Removal, do !un-implement (--soft|--complete)
-
-All changes has to be accepted via PR.
-
-### Second Method: Own-Hosted Solution, Forking / Cloning the Repo
-
-Coming Soon.
 
 ## Supporting Workflows / Proof of System Design
 
@@ -57,38 +12,34 @@ As of now, planning before coding is something that I have to normalize. Straigh
 
 ## Unintended Questions Answered
 
-**Q1. Your procedure to set it up in my repository is quite complex or complicated, why?**
+**Q1. What Happened Here?**
 
-A1. The procedure is expected to be complicated because, Discord's Availability to Open Environment is uncommon for other people to see. What I'm trying to imply is that, you're trying to bring your own presence status somewhere that is not covered in Discord's platform. So I expect things to be quite complicated.
+A1. This repo serves a redundant and useless feature. Technically, I don't need a bot to make things working. But rather I was too overwhelmed and excited to use Firebase for Rich Presence Caching and other such validators that may seem to be useful by the end of the day.
 
-Though, I'm trying my best to see any possible ways to make things quicker and better by automation.
+**However**, discord doesn't even get a downtime so there's **no need of cache**, and why do I need an **authentication** in the first place???? So firebase implementation is out of the way and the bot as well.
 
-**Q2. Why it adds an SQLite Database File in my Repository?**
+**Q2. What's gonna be the Approach since you have another repo about ProfileMD_DRP?**
 
-A2. You may seem to be confused. But you shouldn't be thinking about it when confirming any conditions that the bot implies. Though, I'm trying to be cheap here as possible. ~~Because I'm still a student, and I have no money throughout this 2020.~~.
+A2. I will use the Docker Container File as an Action Workflow Service, but with a twist. I'm gonna use Python as I know the grasp and I know what it takes to do something in the Discord.py Library. (The proof is here.)
 
-In terms of making it to a cloud database, I would have to use Firebase for it, which is a technology that is something I haven't tried. Though, I will be using it for Containerization, the purpose of it was to make the bot alive for any incoming requests.
+**Q3. Why don't you hide the repository because of ------ reason/s?**
 
-**Q3. Why are you giving access to People / Why not keep it to yourself?**
+A3. This repository might be potentially be a prime example of OOP implementation of the bot along with multiple COGs and dynamic load of extension (which is COGs).
 
-A3. Reputation and making use of Open-Source Environment. So far, all of my repositories exists because of my academic projects. What's the point of using open-source when in fact all of my properties were un-~~playable~~. I mean unusable or lacking of equipments to remake or redo the particular fragment/s of the project?
+**Q4. So, you're still going to update this one right???**
 
-I wanna do something that I want to do and interesting to see, hence this was born. In terms of it, being a submodule to my [Profile README.](https://github.com/CodexLink)
-
-**Q4. Can I change the Actions Filename?**
-
-A4. As of now, it's not possible but it's technically possible. As of October 21, 2020. I'm studying Discord.py and recalling the essentials of Python, which makes me super dumb.
+Q4. Yep, as long as I have a context and functionalities that may seem to be useful for a simple query bot. You can hit me up by making an Issue here, or if you have some changes, I would rather take the discussion in a PR form.
 
 ## Credits
 
-This repository were not possible without the following guides, articles, documentations, tutorials, and whatever you call it.
+During **pre-work** in progress stage, the list of links below helps me build some parts of the bot along with clarifications. This repository were not possible without the following guides, articles, documentations, tutorials, and whatever you call it.
 
-* [Base PEP 3107 Example](https://github.com/ActivityWatch/aw-core/blob/master/aw_core/models.py) — ???
+* [Base PEP 3107 Example](https://github.com/ActivityWatch/aw-core/blob/master/aw_core/models.py) — An example models file that utilizes the PEP 3107.
 * [Discord.py](https://github.com/athul/waka-readme) — Wakatime Weekly Metrics on your Profile Readme.
 * [Discord Bot Examples](https://github.com/GreatTaku/Discord-Bot-Examples) — For Detailed Explanation of Particular Async Functions for handling events and response.
 * [Simple Icons](https://simpleicons.org/) — SVG icons for popular brands.
 * [PEP 8 Guidelines Tl;DR Version](https://realpython.com/python-pep8/#naming-conventions) — Huge thanks to [Jasmine Finer](https://github.com/jasminefiner) (who made the article) for TL;DR or compressed version of PEP 8 Guidelines.
 * [Shields.io](https://shields.io/) — Concise, consistent, and legible badges in SVG and raster format.
 * [StackOverflow Question: Discord bot that commits to github](https://stackoverflow.com/questions/61025429/discord-bot-that-commits-to-github) — Thanking the Answer OP for Concepts that I never thought, possible.
-* [StackOverflow Question: Is OOP possible using discord.py without cogs?](https://stackoverflow.com/questions/63403758/is-oop-possible-using-discord-py-without-cogs) — Thanking the Question OP for such question that I never thought will cross in my thoughts.
+* [StackOverflow Question: Is OOP possible using discord.py without cogs?](https://stackoverflow.com/questions/63403758/is-oop-possible-using-discord-py-without-cogs) — Thanking the  OP for such question that I never thought will cross in my thoughts.
 * [StackOverflow Question:](https://stackoverflow.com/questions/50981060/i-cant-add-commands-to-my-discord-bot-with-discord-py) — ???
